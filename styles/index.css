@@ -1,0 +1,26 @@
+/* font styles */
+.hind-madurai-font {
+  font-family: "Hind Madurai", sans-serif;
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* setting primary font  */
+body {
+  font-family: "Hind Madurai", sans-serif;
+  font-style: normal;
+}
+
+/* color styles */
+.color-primary {
+  color: #111;
+}
+
+.color-secondary {
+  color: #5c5c5c;
+}

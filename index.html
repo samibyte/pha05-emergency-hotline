@@ -28,9 +28,38 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
-  <body>
+  <body class="px-5 sm:px-16">
     <header>
-      <nav></nav>
+      <nav
+        class="gap-5gi flex flex-col items-center justify-between py-6 sm:flex-row"
+      >
+        <div class="flex items-center gap-2.5">
+          <img class="w-12" src="./assets/logo.png" alt="Logo" />
+          <h1 class="text-2xl font-black leading-5 text-[#006747]">
+            Emergency <br />
+            Service
+          </h1>
+        </div>
+        <div class="flex w-full justify-evenly gap-5 sm:w-fit">
+          <div
+            class="rounded-4xl flex items-center gap-2.5 bg-[rgba(65,255,107,0.1)] px-4 py-2 sm:px-9 sm:py-3"
+          >
+            <p class="inter-font font-black">10</p>
+            <img class="w-7" src="./assets/heart.png" alt="Heart icon" />
+          </div>
+          <div
+            class="rounded-4xl flex items-center gap-2.5 bg-[rgba(65,255,107,0.1)] px-4 py-2 sm:px-9 sm:py-3"
+          >
+            <p class="inter-font font-black">100</p>
+            <img class="w-7" src="./assets/coin.png" alt="Coin icon" />
+          </div>
+          <p
+            class="inter-font rounded-4xl bg-[#00A63E] px-4 py-2 text-[14px] font-semibold text-white sm:px-9 sm:py-3"
+          >
+            2 Copy
+          </p>
+        </div>
+      </nav>
     </header>
     <main></main>
     <script src="./scripts/index.js"></script>

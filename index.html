@@ -28,10 +28,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
-  <body class="px-5 sm:px-16">
+  <body>
     <header>
       <nav
-        class="gap-5gi flex flex-col items-center justify-between py-6 sm:flex-row"
+        class="gap-5gi flex flex-col items-center justify-between px-5 py-6 sm:flex-row sm:px-16"
       >
         <div class="flex items-center gap-2.5">
           <img class="w-12" src="./assets/logo.png" alt="Logo" />
@@ -60,8 +60,20 @@
           </p>
         </div>
       </nav>
+      <div
+        class="flex flex-col items-center gap-3 bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] px-5 py-3"
+      >
+        <img class="w-24" src="./assets/logo-dark.png" alt="Logo" />
+        <h1 class="text-center text-2xl font-bold text-white sm:text-[40px]">
+          Emergency Service Directory
+        </h1>
+        <p class="text-center text-[12px] font-semibold text-white sm:text-xl">
+          Government Emergency Services at Your Fingertip – A Project by
+          Government of the People’s Republic of Bangladesh
+        </p>
+      </div>
     </header>
-    <main></main>
+    <main class="px-5 sm:px-16"></main>
     <script src="./scripts/index.js"></script>
   </body>
 </html>

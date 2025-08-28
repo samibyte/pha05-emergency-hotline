@@ -10,6 +10,13 @@
   font-style: normal;
 }
 
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
 /* setting primary font  */
 body {
   font-family: "Hind Madurai", sans-serif;

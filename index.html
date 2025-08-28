@@ -31,7 +31,7 @@
   <body>
     <header>
       <nav
-        class="gap-5gi flex flex-col items-center justify-between px-5 py-6 sm:flex-row sm:px-16"
+        class="flex flex-col items-center justify-between gap-5 px-5 py-6 sm:flex-row sm:px-16"
       >
         <div class="flex items-center gap-2.5">
           <img class="w-12" src="./assets/logo.png" alt="Logo" />
@@ -67,23 +67,30 @@
         class="flex flex-col items-center gap-3 bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] px-5 py-3"
       >
         <img class="w-24" src="./assets/logo-dark.png" alt="Logo" />
-        <h1 class="text-center text-2xl font-bold text-white sm:text-[40px]">
+        <h1 class="text-center text-3xl font-bold text-white sm:text-[40px]">
           Emergency Service Directory
         </h1>
-        <p class="text-center text-[12px] font-semibold text-white sm:text-xl">
+        <p
+          class="max-w-3xl text-center text-sm font-medium text-white sm:text-lg lg:text-xl"
+        >
           Government Emergency Services at Your Fingertip – A Project by
           Government of the People’s Republic of Bangladesh
         </p>
       </section>
 
-      <section class="bg-[#F5FFF6] px-5 py-12 sm:px-16">
+      <section
+        class="grid grid-cols-1 gap-8 bg-[#F5FFF6] px-5 py-12 sm:grid-cols-12 sm:px-16"
+      >
         <!-- Emergency hotline section  -->
-        <section class="grid grid-cols-1 gap-8 sm:grid-cols-3">
+        <section
+          class="order-2 col-span-12 grid grid-cols-1 gap-8 sm:order-1 sm:col-span-9 sm:grid-cols-3"
+        >
+          <!-- hotline card 1 -->
           <div
-            class="w-[436px] rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
+            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
           >
             <div class="mb-4 flex items-center justify-between">
-              <div
+              <figure
                 class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
               >
                 <img
@@ -91,7 +98,7 @@
                   src="./assets/emergency.png"
                   alt="Emergency icon"
                 />
-              </div>
+              </figure>
 
               <i class="fa-regular fa-heart"></i>
             </div>
@@ -107,23 +114,24 @@
             >
               All
             </p>
-            <div class="flex gap-2">
+            <div class="flex flex-col gap-2 lg:flex-row">
               <button
                 class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
-                <i class="fa-regular fa-copy"></i> Copy</button
-              ><button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] bg-[#00A63E] px-16 py-2.5 font-normal text-white hover:bg-[#5C5C5C] hover:text-white"
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+              <button
+                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
             </div>
           </div>
           <div
-            class="w-[436px] rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
+            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
           >
             <div class="mb-4 flex items-center justify-between">
-              <div
+              <figure
                 class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
               >
                 <img
@@ -131,7 +139,7 @@
                   src="./assets/emergency.png"
                   alt="Emergency icon"
                 />
-              </div>
+              </figure>
 
               <i class="fa-regular fa-heart"></i>
             </div>
@@ -147,23 +155,24 @@
             >
               All
             </p>
-            <div class="flex gap-2">
+            <div class="flex flex-col gap-2 sm:flex lg:flex-row">
               <button
                 class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
-                <i class="fa-regular fa-copy"></i> Copy</button
-              ><button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] bg-[#00A63E] px-16 py-2.5 font-normal text-white hover:bg-[#5C5C5C] hover:text-white"
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+              <button
+                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
             </div>
           </div>
           <div
-            class="w-[436px] rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
+            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
           >
             <div class="mb-4 flex items-center justify-between">
-              <div
+              <figure
                 class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
               >
                 <img
@@ -171,7 +180,7 @@
                   src="./assets/emergency.png"
                   alt="Emergency icon"
                 />
-              </div>
+              </figure>
 
               <i class="fa-regular fa-heart"></i>
             </div>
@@ -187,23 +196,24 @@
             >
               All
             </p>
-            <div class="flex gap-2">
+            <div class="flex flex-col gap-2 sm:flex lg:flex-row">
               <button
                 class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
-                <i class="fa-regular fa-copy"></i> Copy</button
-              ><button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] bg-[#00A63E] px-16 py-2.5 font-normal text-white hover:bg-[#5C5C5C] hover:text-white"
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+              <button
+                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
             </div>
           </div>
           <div
-            class="w-[436px] rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
+            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
           >
             <div class="mb-4 flex items-center justify-between">
-              <div
+              <figure
                 class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
               >
                 <img
@@ -211,7 +221,7 @@
                   src="./assets/emergency.png"
                   alt="Emergency icon"
                 />
-              </div>
+              </figure>
 
               <i class="fa-regular fa-heart"></i>
             </div>
@@ -227,23 +237,24 @@
             >
               All
             </p>
-            <div class="flex gap-2">
+            <div class="flex flex-col gap-2 sm:flex lg:flex-row">
               <button
                 class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
-                <i class="fa-regular fa-copy"></i> Copy</button
-              ><button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] bg-[#00A63E] px-16 py-2.5 font-normal text-white hover:bg-[#5C5C5C] hover:text-white"
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+              <button
+                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
             </div>
           </div>
           <div
-            class="w-[436px] rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
+            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
           >
             <div class="mb-4 flex items-center justify-between">
-              <div
+              <figure
                 class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
               >
                 <img
@@ -251,7 +262,7 @@
                   src="./assets/emergency.png"
                   alt="Emergency icon"
                 />
-              </div>
+              </figure>
 
               <i class="fa-regular fa-heart"></i>
             </div>
@@ -267,23 +278,24 @@
             >
               All
             </p>
-            <div class="flex gap-2">
+            <div class="flex flex-col gap-2 sm:flex lg:flex-row">
               <button
                 class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
-                <i class="fa-regular fa-copy"></i> Copy</button
-              ><button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] bg-[#00A63E] px-16 py-2.5 font-normal text-white hover:bg-[#5C5C5C] hover:text-white"
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+              <button
+                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
             </div>
           </div>
           <div
-            class="w-[436px] rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
+            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
           >
             <div class="mb-4 flex items-center justify-between">
-              <div
+              <figure
                 class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
               >
                 <img
@@ -291,7 +303,7 @@
                   src="./assets/emergency.png"
                   alt="Emergency icon"
                 />
-              </div>
+              </figure>
 
               <i class="fa-regular fa-heart"></i>
             </div>
@@ -307,23 +319,24 @@
             >
               All
             </p>
-            <div class="flex gap-2">
+            <div class="flex flex-col gap-2 sm:flex lg:flex-row">
               <button
                 class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
-                <i class="fa-regular fa-copy"></i> Copy</button
-              ><button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] bg-[#00A63E] px-16 py-2.5 font-normal text-white hover:bg-[#5C5C5C] hover:text-white"
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+              <button
+                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
             </div>
           </div>
           <div
-            class="w-[436px] rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
+            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
           >
             <div class="mb-4 flex items-center justify-between">
-              <div
+              <figure
                 class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
               >
                 <img
@@ -331,7 +344,7 @@
                   src="./assets/emergency.png"
                   alt="Emergency icon"
                 />
-              </div>
+              </figure>
 
               <i class="fa-regular fa-heart"></i>
             </div>
@@ -347,23 +360,24 @@
             >
               All
             </p>
-            <div class="flex gap-2">
+            <div class="flex flex-col gap-2 sm:flex lg:flex-row">
               <button
                 class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
-                <i class="fa-regular fa-copy"></i> Copy</button
-              ><button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] bg-[#00A63E] px-16 py-2.5 font-normal text-white hover:bg-[#5C5C5C] hover:text-white"
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+              <button
+                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
             </div>
           </div>
           <div
-            class="w-[436px] rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
+            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
           >
             <div class="mb-4 flex items-center justify-between">
-              <div
+              <figure
                 class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
               >
                 <img
@@ -371,7 +385,7 @@
                   src="./assets/emergency.png"
                   alt="Emergency icon"
                 />
-              </div>
+              </figure>
 
               <i class="fa-regular fa-heart"></i>
             </div>
@@ -387,53 +401,14 @@
             >
               All
             </p>
-            <div class="flex gap-2">
+            <div class="flex flex-col gap-2 sm:flex lg:flex-row">
               <button
                 class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
-                <i class="fa-regular fa-copy"></i> Copy</button
-              ><button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] bg-[#00A63E] px-16 py-2.5 font-normal text-white hover:bg-[#5C5C5C] hover:text-white"
-              >
-                <i class="fa-solid fa-phone"></i> Call
+                <i class="fa-regular fa-copy"></i> Copy
               </button>
-            </div>
-          </div>
-          <div
-            class="w-[436px] rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
-          >
-            <div class="mb-4 flex items-center justify-between">
-              <div
-                class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
-              >
-                <img
-                  class="w-8"
-                  src="./assets/emergency.png"
-                  alt="Emergency icon"
-                />
-              </div>
-
-              <i class="fa-regular fa-heart"></i>
-            </div>
-            <h3 class="color-primary text-2xl font-bold">
-              National Emergency Number
-            </h3>
-            <p class="color-secondary roboto-font mb-6 text-[18px]">
-              National Emergency
-            </p>
-            <p class="roboto-font color-primary text-[32px] font-bold">999</p>
-            <p
-              class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
-            >
-              All
-            </p>
-            <div class="flex gap-2">
               <button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
-              >
-                <i class="fa-regular fa-copy"></i> Copy</button
-              ><button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] bg-[#00A63E] px-16 py-2.5 font-normal text-white hover:bg-[#5C5C5C] hover:text-white"
+                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -441,7 +416,49 @@
           </div>
         </section>
         <!-- Call history section -->
-        <aside></aside>
+        <aside
+          class="collapse-arrow sm:collapse-open collapse order-1 col-span-12 bg-white drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)] sm:order-2 sm:col-span-3 sm:p-6"
+        >
+          <input class="sm:hidden" type="checkbox" />
+          <div class="collapse-title sm:hidden">
+            <div
+              class="color-primary robot-font flex items-center gap-2 text-xl font-medium"
+            >
+              <i class="fa-regular fa-clock color-secondary"></i>
+              <p>Call History</p>
+            </div>
+          </div>
+          <div class="collapse-content">
+            <div class="mb-4 flex items-center justify-between">
+              <div
+                class="color-primary roboto-font hidden items-center gap-2 text-xl font-medium sm:flex"
+              >
+                <i class="fa-regular fa-clock color-secondary"></i>
+                <p>Call History</p>
+              </div>
+
+              <button
+                class="btn mx-auto rounded-full border-none bg-[#00A63E] px-24 py-3 text-white sm:m-0 sm:px-9"
+              >
+                Clear
+              </button>
+            </div>
+            <!-- history container -->
+            <div class="sm:p-4">
+              <div class="flex items-center justify-between">
+                <div>
+                  <h5
+                    class="inter-font color-primary text-[18px] font-semibold"
+                  >
+                    Fire Service Number
+                  </h5>
+                  <p class="color-secondary text-[18px]">999</p>
+                </div>
+                <p class="color-primary text-[18px]">3:12 PM</p>
+              </div>
+            </div>
+          </div>
+        </aside>
       </section>
     </main>
     <script src="./scripts/index.js"></script>

@@ -86,7 +86,7 @@
           id="hotline-card-container"
           class="order-2 col-span-12 grid grid-cols-1 gap-8 sm:order-1 sm:col-span-9 sm:grid-cols-3"
         >
-          <!-- hotline card 1 -->
+          <!-- hotline cards -->
           <div
             class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
           >
@@ -139,22 +139,20 @@
           >
             <div class="mb-4 flex items-center justify-between">
               <figure
-                class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
+                class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#DFEFFF]"
               >
-                <img
-                  class="w-8"
-                  src="./assets/emergency.png"
-                  alt="Emergency icon"
-                />
+                <img class="w-8" src="./assets/police.png" alt="Police icon" />
               </figure>
 
               <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
             </div>
-            <h3 class="service-name color-primary text-2xl font-bold">
-              National Emergency Number
+            <h3 class="service-title color-primary text-2xl font-bold">
+              Police Helpline Number
             </h3>
-            <p class="color-secondary roboto-font mb-6 text-[18px]">
-              National Emergency
+            <p
+              class="service-subtitle color-secondary roboto-font mb-6 text-[18px]"
+            >
+              Police Helpline
             </p>
             <p
               class="service-num roboto-font color-primary text-[32px] font-bold"
@@ -164,7 +162,101 @@
             <p
               class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
             >
-              All
+              Police
+            </p>
+            <div class="flex flex-col gap-2 lg:flex-row">
+              <button
+                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
+              >
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+              <button
+                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
+              >
+                <i class="fa-solid fa-phone"></i> Call
+              </button>
+            </div>
+          </div>
+          <div
+            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
+          >
+            <div class="mb-4 flex items-center justify-between">
+              <figure
+                class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
+              >
+                <img
+                  class="w-8"
+                  src="./assets/fire-service.png"
+                  alt="Fire service icon"
+                />
+              </figure>
+
+              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
+            </div>
+            <h3 class="service-title color-primary text-2xl font-bold">
+              Fire Service Number
+            </h3>
+            <p
+              class="service-subtitle color-secondary roboto-font mb-6 text-[18px]"
+            >
+              Fire Service
+            </p>
+            <p
+              class="service-num roboto-font color-primary text-[32px] font-bold"
+            >
+              999
+            </p>
+            <p
+              class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
+            >
+              Fire
+            </p>
+            <div class="flex flex-col gap-2 lg:flex-row">
+              <button
+                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
+              >
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+              <button
+                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
+              >
+                <i class="fa-solid fa-phone"></i> Call
+              </button>
+            </div>
+          </div>
+          <div
+            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
+          >
+            <div class="mb-4 flex items-center justify-between">
+              <figure
+                class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
+              >
+                <img
+                  class="w-8"
+                  src="./assets/ambulance.png"
+                  alt="Ambulance icon"
+                />
+              </figure>
+
+              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
+            </div>
+            <h3 class="service-title color-primary text-2xl font-bold">
+              Ambulance Service
+            </h3>
+            <p
+              class="service-subtitle color-secondary roboto-font mb-6 text-[18px]"
+            >
+              Ambulance
+            </p>
+            <p
+              class="service-num roboto-font color-primary text-[32px] font-bold"
+            >
+              1994-999999
+            </p>
+            <p
+              class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
+            >
+              Health
             </p>
             <div class="flex flex-col gap-2 lg:flex-row">
               <button
@@ -195,21 +287,113 @@
 
               <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
             </div>
-            <h3 class="service-name color-primary text-2xl font-bold">
-              National Emergency Number
+            <h3 class="service-title color-primary text-2xl font-bold">
+              Women and Child Helpline
             </h3>
-            <p class="color-secondary roboto-font mb-6 text-[18px]">
-              National Emergency
+            <p
+              class="service-subtitle color-secondary roboto-font mb-6 text-[18px]"
+            >
+              Women and Child Helpline
             </p>
             <p
               class="service-num roboto-font color-primary text-[32px] font-bold"
             >
-              999
+              109
             </p>
             <p
               class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
             >
-              All
+              Help
+            </p>
+            <div class="flex flex-col gap-2 lg:flex-row">
+              <button
+                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
+              >
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+              <button
+                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
+              >
+                <i class="fa-solid fa-phone"></i> Call
+              </button>
+            </div>
+          </div>
+          <div
+            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
+          >
+            <div class="mb-4 flex items-center justify-between">
+              <figure
+                class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#DFEFFF]"
+              >
+                <img class="w-8" src="./assets/dudok.png" alt="Dudok icon" />
+              </figure>
+
+              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
+            </div>
+            <h3 class="service-title color-primary text-2xl font-bold">
+              Anti-Corruption Commision
+            </h3>
+            <p
+              class="service-subtitle color-secondary roboto-font mb-6 text-[18px]"
+            >
+              Anti-Corruption Helpline
+            </p>
+            <p
+              class="service-num roboto-font color-primary text-[32px] font-bold"
+            >
+              106
+            </p>
+            <p
+              class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
+            >
+              Crime
+            </p>
+            <div class="flex flex-col gap-2 lg:flex-row">
+              <button
+                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
+              >
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+              <button
+                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
+              >
+                <i class="fa-solid fa-phone"></i> Call
+              </button>
+            </div>
+          </div>
+          <div
+            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
+          >
+            <div class="mb-4 flex items-center justify-between">
+              <figure
+                class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#f1f0e0]"
+              >
+                <img
+                  class="w-8"
+                  src="./assets/lightning.png"
+                  alt="Electricity icon"
+                />
+              </figure>
+
+              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
+            </div>
+            <h3 class="service-title color-primary text-2xl font-bold">
+              Electricity Helpline Number
+            </h3>
+            <p
+              class="service-subtitle color-secondary roboto-font mb-6 text-[18px]"
+            >
+              Electricity Helpline
+            </p>
+            <p
+              class="service-num roboto-font color-primary text-[32px] font-bold"
+            >
+              16999
+            </p>
+            <p
+              class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
+            >
+              Electricity
             </p>
             <div class="flex flex-col gap-2 lg:flex-row">
               <button
@@ -231,30 +415,28 @@
               <figure
                 class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
               >
-                <img
-                  class="w-8"
-                  src="./assets/emergency.png"
-                  alt="Emergency icon"
-                />
+                <img class="w-8" src="./assets/brac.png" alt="Brac icon" />
               </figure>
 
               <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
             </div>
-            <h3 class="service-name color-primary text-2xl font-bold">
-              National Emergency Number
+            <h3 class="service-title color-primary text-2xl font-bold">
+              Brac Helpline Number
             </h3>
-            <p class="color-secondary roboto-font mb-6 text-[18px]">
-              National Emergency
+            <p
+              class="service-subtitle color-secondary roboto-font mb-6 text-[18px]"
+            >
+              Brac Helpline
             </p>
             <p
               class="service-num roboto-font color-primary text-[32px] font-bold"
             >
-              999
+              88 02 2222 81265
             </p>
             <p
               class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
             >
-              All
+              NGO
             </p>
             <div class="flex flex-col gap-2 lg:flex-row">
               <button
@@ -274,212 +456,34 @@
           >
             <div class="mb-4 flex items-center justify-between">
               <figure
-                class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
+                class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#fae6cc]"
               >
                 <img
                   class="w-8"
-                  src="./assets/emergency.png"
-                  alt="Emergency icon"
+                  src="./assets/Bangladesh-Railway.png"
+                  alt="Bangladesh Railway icon"
                 />
               </figure>
 
               <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
             </div>
-            <h3 class="service-name color-primary text-2xl font-bold">
-              National Emergency Number
+            <h3 class="service-title color-primary text-2xl font-bold">
+              Bangladesh Railway Helpline
             </h3>
-            <p class="color-secondary roboto-font mb-6 text-[18px]">
-              National Emergency
+            <p
+              class="service-subtitle color-secondary roboto-font mb-6 text-[18px]"
+            >
+              Bangladesh Railway
             </p>
             <p
               class="service-num roboto-font color-primary text-[32px] font-bold"
             >
-              999
+              163
             </p>
             <p
               class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
             >
-              All
-            </p>
-            <div class="flex flex-col gap-2 lg:flex-row">
-              <button
-                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
-              >
-                <i class="fa-regular fa-copy"></i> Copy
-              </button>
-              <button
-                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
-              >
-                <i class="fa-solid fa-phone"></i> Call
-              </button>
-            </div>
-          </div>
-          <div
-            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
-          >
-            <div class="mb-4 flex items-center justify-between">
-              <figure
-                class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
-              >
-                <img
-                  class="w-8"
-                  src="./assets/emergency.png"
-                  alt="Emergency icon"
-                />
-              </figure>
-
-              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
-            </div>
-            <h3 class="service-name color-primary text-2xl font-bold">
-              National Emergency Number
-            </h3>
-            <p class="color-secondary roboto-font mb-6 text-[18px]">
-              National Emergency
-            </p>
-            <p
-              class="service-num roboto-font color-primary text-[32px] font-bold"
-            >
-              999
-            </p>
-            <p
-              class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
-            >
-              All
-            </p>
-            <div class="flex flex-col gap-2 lg:flex-row">
-              <button
-                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
-              >
-                <i class="fa-regular fa-copy"></i> Copy
-              </button>
-              <button
-                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
-              >
-                <i class="fa-solid fa-phone"></i> Call
-              </button>
-            </div>
-          </div>
-          <div
-            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
-          >
-            <div class="mb-4 flex items-center justify-between">
-              <figure
-                class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
-              >
-                <img
-                  class="w-8"
-                  src="./assets/emergency.png"
-                  alt="Emergency icon"
-                />
-              </figure>
-
-              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
-            </div>
-            <h3 class="service-name color-primary text-2xl font-bold">
-              National Emergency Number
-            </h3>
-            <p class="color-secondary roboto-font mb-6 text-[18px]">
-              National Emergency
-            </p>
-            <p
-              class="service-num roboto-font color-primary text-[32px] font-bold"
-            >
-              999
-            </p>
-            <p
-              class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
-            >
-              All
-            </p>
-            <div class="flex flex-col gap-2 lg:flex-row">
-              <button
-                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
-              >
-                <i class="fa-regular fa-copy"></i> Copy
-              </button>
-              <button
-                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
-              >
-                <i class="fa-solid fa-phone"></i> Call
-              </button>
-            </div>
-          </div>
-          <div
-            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
-          >
-            <div class="mb-4 flex items-center justify-between">
-              <figure
-                class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
-              >
-                <img
-                  class="w-8"
-                  src="./assets/emergency.png"
-                  alt="Emergency icon"
-                />
-              </figure>
-
-              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
-            </div>
-            <h3 class="service-name color-primary text-2xl font-bold">
-              National Emergency Number
-            </h3>
-            <p class="color-secondary roboto-font mb-6 text-[18px]">
-              National Emergency
-            </p>
-            <p
-              class="service-num roboto-font color-primary text-[32px] font-bold"
-            >
-              999
-            </p>
-            <p
-              class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
-            >
-              All
-            </p>
-            <div class="flex flex-col gap-2 lg:flex-row">
-              <button
-                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
-              >
-                <i class="fa-regular fa-copy"></i> Copy
-              </button>
-              <button
-                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
-              >
-                <i class="fa-solid fa-phone"></i> Call
-              </button>
-            </div>
-          </div>
-          <div
-            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
-          >
-            <div class="mb-4 flex items-center justify-between">
-              <figure
-                class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
-              >
-                <img
-                  class="w-8"
-                  src="./assets/emergency.png"
-                  alt="Emergency icon"
-                />
-              </figure>
-
-              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
-            </div>
-            <h3 class="service-name color-primary text-2xl font-bold">
-              National Emergency Number
-            </h3>
-            <p class="color-secondary roboto-font mb-6 text-[18px]">
-              National Emergency
-            </p>
-            <p
-              class="service-num roboto-font color-primary text-[32px] font-bold"
-            >
-              999
-            </p>
-            <p
-              class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
-            >
-              All
+              Travel
             </p>
             <div class="flex flex-col gap-2 lg:flex-row">
               <button

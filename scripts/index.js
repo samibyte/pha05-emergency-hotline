@@ -59,7 +59,7 @@ hotlineCardContainer.addEventListener("click", (e) => {
 
       serviceParent.append(serviceTitle, serviceNum);
       historyBox.append(serviceParent, callTime);
-      historycontainer.append(historyBox);
+      historycontainer.insertBefore(historyBox, historycontainer.firstChild);
     }
   }
   if (e.target.className.includes("copy-btn")) {

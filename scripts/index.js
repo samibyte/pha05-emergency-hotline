@@ -2,6 +2,7 @@ const hotlineCardContainer = document.getElementById("hotline-card-container");
 const historycontainer = document.getElementById("historyContainer");
 let heartPoint = Number(document.getElementById("heartPoint").textContent);
 let coinPoint = Number(document.getElementById("coinPoint").textContent);
+let copyCount = Number(document.getElementById("copyCount").textContent);
 
 hotlineCardContainer.addEventListener("click", (e) => {
   if (e.target.className.includes("heart-icon")) {
@@ -62,7 +63,11 @@ hotlineCardContainer.addEventListener("click", (e) => {
     }
   }
   if (e.target.className.includes("copy-btn")) {
-    alert("copy button clicked");
+    const cardNum = e.target.parentNode.parentNode.children[3].innerText;
+    navigator.clipboard.writeText(cardNum);
+    copyCount += 1;
+    document.getElementById("copyCount").textContent = copyCount;
+    alert(`✅ Hotline Number Copied: ${cardNum}`);
   }
 });
 

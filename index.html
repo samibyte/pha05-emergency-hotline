@@ -44,16 +44,17 @@
           <div
             class="rounded-4xl flex items-center gap-2.5 bg-[rgba(65,255,107,0.1)] px-4 py-2 sm:px-9 sm:py-3"
           >
-            <p class="inter-font font-black">10</p>
+            <p id="heartPoint" class="inter-font font-black">0</p>
             <img class="w-7" src="./assets/heart.png" alt="Heart icon" />
           </div>
           <div
             class="rounded-4xl flex items-center gap-2.5 bg-[rgba(65,255,107,0.1)] px-4 py-2 sm:px-9 sm:py-3"
           >
-            <p class="inter-font font-black">100</p>
+            <p id="coinPoint" class="inter-font font-black">100</p>
             <img class="w-7" src="./assets/coin.png" alt="Coin icon" />
           </div>
           <p
+            id="copyCount"
             class="inter-font rounded-4xl bg-[#00A63E] px-4 py-2 text-[14px] font-semibold text-white sm:px-9 sm:py-3"
           >
             2 Copy
@@ -83,6 +84,7 @@
       >
         <!-- Emergency hotline section  -->
         <section
+          id="hotline-card-container"
           class="order-2 col-span-12 grid grid-cols-1 gap-8 sm:order-1 sm:col-span-9 sm:grid-cols-3"
         >
           <!-- hotline card 1 -->
@@ -100,15 +102,19 @@
                 />
               </figure>
 
-              <i class="fa-regular fa-heart"></i>
+              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
             </div>
-            <h3 class="color-primary text-2xl font-bold">
+            <h3 class="service-name color-primary text-2xl font-bold">
               National Emergency Number
             </h3>
             <p class="color-secondary roboto-font mb-6 text-[18px]">
               National Emergency
             </p>
-            <p class="roboto-font color-primary text-[32px] font-bold">999</p>
+            <p
+              class="service-num roboto-font color-primary text-[32px] font-bold"
+            >
+              999
+            </p>
             <p
               class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
             >
@@ -116,12 +122,12 @@
             </p>
             <div class="flex flex-col gap-2 lg:flex-row">
               <button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
+                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
+                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -141,28 +147,32 @@
                 />
               </figure>
 
-              <i class="fa-regular fa-heart"></i>
+              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
             </div>
-            <h3 class="color-primary text-2xl font-bold">
+            <h3 class="service-name color-primary text-2xl font-bold">
               National Emergency Number
             </h3>
             <p class="color-secondary roboto-font mb-6 text-[18px]">
               National Emergency
             </p>
-            <p class="roboto-font color-primary text-[32px] font-bold">999</p>
+            <p
+              class="service-num roboto-font color-primary text-[32px] font-bold"
+            >
+              999
+            </p>
             <p
               class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
             >
               All
             </p>
-            <div class="flex flex-col gap-2 sm:flex lg:flex-row">
+            <div class="flex flex-col gap-2 lg:flex-row">
               <button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
+                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
+                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -182,28 +192,32 @@
                 />
               </figure>
 
-              <i class="fa-regular fa-heart"></i>
+              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
             </div>
-            <h3 class="color-primary text-2xl font-bold">
+            <h3 class="service-name color-primary text-2xl font-bold">
               National Emergency Number
             </h3>
             <p class="color-secondary roboto-font mb-6 text-[18px]">
               National Emergency
             </p>
-            <p class="roboto-font color-primary text-[32px] font-bold">999</p>
+            <p
+              class="service-num roboto-font color-primary text-[32px] font-bold"
+            >
+              999
+            </p>
             <p
               class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
             >
               All
             </p>
-            <div class="flex flex-col gap-2 sm:flex lg:flex-row">
+            <div class="flex flex-col gap-2 lg:flex-row">
               <button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
+                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
+                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -223,28 +237,32 @@
                 />
               </figure>
 
-              <i class="fa-regular fa-heart"></i>
+              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
             </div>
-            <h3 class="color-primary text-2xl font-bold">
+            <h3 class="service-name color-primary text-2xl font-bold">
               National Emergency Number
             </h3>
             <p class="color-secondary roboto-font mb-6 text-[18px]">
               National Emergency
             </p>
-            <p class="roboto-font color-primary text-[32px] font-bold">999</p>
+            <p
+              class="service-num roboto-font color-primary text-[32px] font-bold"
+            >
+              999
+            </p>
             <p
               class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
             >
               All
             </p>
-            <div class="flex flex-col gap-2 sm:flex lg:flex-row">
+            <div class="flex flex-col gap-2 lg:flex-row">
               <button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
+                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
+                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -264,28 +282,32 @@
                 />
               </figure>
 
-              <i class="fa-regular fa-heart"></i>
+              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
             </div>
-            <h3 class="color-primary text-2xl font-bold">
+            <h3 class="service-name color-primary text-2xl font-bold">
               National Emergency Number
             </h3>
             <p class="color-secondary roboto-font mb-6 text-[18px]">
               National Emergency
             </p>
-            <p class="roboto-font color-primary text-[32px] font-bold">999</p>
+            <p
+              class="service-num roboto-font color-primary text-[32px] font-bold"
+            >
+              999
+            </p>
             <p
               class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
             >
               All
             </p>
-            <div class="flex flex-col gap-2 sm:flex lg:flex-row">
+            <div class="flex flex-col gap-2 lg:flex-row">
               <button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
+                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
+                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -305,28 +327,32 @@
                 />
               </figure>
 
-              <i class="fa-regular fa-heart"></i>
+              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
             </div>
-            <h3 class="color-primary text-2xl font-bold">
+            <h3 class="service-name color-primary text-2xl font-bold">
               National Emergency Number
             </h3>
             <p class="color-secondary roboto-font mb-6 text-[18px]">
               National Emergency
             </p>
-            <p class="roboto-font color-primary text-[32px] font-bold">999</p>
+            <p
+              class="service-num roboto-font color-primary text-[32px] font-bold"
+            >
+              999
+            </p>
             <p
               class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
             >
               All
             </p>
-            <div class="flex flex-col gap-2 sm:flex lg:flex-row">
+            <div class="flex flex-col gap-2 lg:flex-row">
               <button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
+                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
+                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -346,28 +372,32 @@
                 />
               </figure>
 
-              <i class="fa-regular fa-heart"></i>
+              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
             </div>
-            <h3 class="color-primary text-2xl font-bold">
+            <h3 class="service-name color-primary text-2xl font-bold">
               National Emergency Number
             </h3>
             <p class="color-secondary roboto-font mb-6 text-[18px]">
               National Emergency
             </p>
-            <p class="roboto-font color-primary text-[32px] font-bold">999</p>
+            <p
+              class="service-num roboto-font color-primary text-[32px] font-bold"
+            >
+              999
+            </p>
             <p
               class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
             >
               All
             </p>
-            <div class="flex flex-col gap-2 sm:flex lg:flex-row">
+            <div class="flex flex-col gap-2 lg:flex-row">
               <button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
+                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
+                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -387,28 +417,77 @@
                 />
               </figure>
 
-              <i class="fa-regular fa-heart"></i>
+              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
             </div>
-            <h3 class="color-primary text-2xl font-bold">
+            <h3 class="service-name color-primary text-2xl font-bold">
               National Emergency Number
             </h3>
             <p class="color-secondary roboto-font mb-6 text-[18px]">
               National Emergency
             </p>
-            <p class="roboto-font color-primary text-[32px] font-bold">999</p>
+            <p
+              class="service-num roboto-font color-primary text-[32px] font-bold"
+            >
+              999
+            </p>
             <p
               class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
             >
               All
             </p>
-            <div class="flex flex-col gap-2 sm:flex lg:flex-row">
+            <div class="flex flex-col gap-2 lg:flex-row">
               <button
-                class="roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
+                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
+                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
+              >
+                <i class="fa-solid fa-phone"></i> Call
+              </button>
+            </div>
+          </div>
+          <div
+            class="rounded-xl bg-white p-8 drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)]"
+          >
+            <div class="mb-4 flex items-center justify-between">
+              <figure
+                class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-[#FFE3E2]"
+              >
+                <img
+                  class="w-8"
+                  src="./assets/emergency.png"
+                  alt="Emergency icon"
+                />
+              </figure>
+
+              <i class="heart-icon fa-regular fa-heart cursor-pointer"></i>
+            </div>
+            <h3 class="service-name color-primary text-2xl font-bold">
+              National Emergency Number
+            </h3>
+            <p class="color-secondary roboto-font mb-6 text-[18px]">
+              National Emergency
+            </p>
+            <p
+              class="service-num roboto-font color-primary text-[32px] font-bold"
+            >
+              999
+            </p>
+            <p
+              class="color-secondary mb-6 inline-block rounded-full bg-[#F2F2F2] px-4 py-1.5 text-[18px]"
+            >
+              All
+            </p>
+            <div class="flex flex-col gap-2 lg:flex-row">
+              <button
+                class="copy-btn roboto-font btn rounded-[8px] border border-[#D4D6D5] px-16 py-2.5 font-normal text-[#5C5C5C] hover:bg-[#5C5C5C] hover:text-white"
+              >
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+              <button
+                class="call-btn roboto-font btn rounded-[8px] border-none bg-[#00A63E] px-16 py-2.5 text-white hover:bg-[#5C5C5C] hover:text-white"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -443,10 +522,10 @@
                 Clear
               </button>
             </div>
-            <!-- history container -->
+            <!-- call history container -->
             <div class="sm:p-4">
               <div class="flex items-center justify-between">
-                <div>
+                <div class="history-div">
                   <h5
                     class="inter-font color-primary text-[18px] font-semibold"
                   >

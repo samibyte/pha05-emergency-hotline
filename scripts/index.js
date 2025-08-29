@@ -53,7 +53,8 @@ hotlineCardContainer.addEventListener("click", (e) => {
         "text-[18px]",
         "whitespace-nowrap",
       );
-      callTime.innerText = "4:23 PM";
+      // local time implementation
+      callTime.innerText = new Date().toLocaleTimeString();
 
       serviceParent.append(serviceTitle, serviceNum);
       historyBox.append(serviceParent, callTime);

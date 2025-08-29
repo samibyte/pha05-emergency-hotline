@@ -1,4 +1,5 @@
 const hotlineCardContainer = document.getElementById("hotline-card-container");
+const historycontainer = document.getElementById("historyContainer");
 let heartPoint = Number(document.getElementById("heartPoint").textContent);
 let coinPoint = Number(document.getElementById("coinPoint").textContent);
 
@@ -21,7 +22,6 @@ hotlineCardContainer.addEventListener("click", (e) => {
       alert(`📞 Calling ${cardSubTitle} ${cardNum}...`);
 
       // Generating call history markup
-      const historycontainer = document.getElementById("historyContainer");
 
       const historyBox = document.createElement("div");
       historyBox.classList.add(
@@ -65,22 +65,7 @@ hotlineCardContainer.addEventListener("click", (e) => {
   }
 });
 
-/* const callBtn = document.querySelector(".call-btn");
-
-callBtn.addEventListener("click", (e) => {
-  e.preventDefault();
-
-  const serviceName = document.querySelector(".service-name").textContent;
-  const historyDiv = document.querySelector(".history-div");
-
-  const historyName = document.createElement("h5");
-  historyName.textContent = serviceName;
-  historyName.classList.add(
-    "inter-font",
-    "color-primary",
-    "text-[18px]",
-    "font-semibold",
-  );
-
-  historyDiv.appendChild(historyName);
-}); */
+const historyClearBtn = document.getElementById("history-clear-btn");
+historyClearBtn.addEventListener("click", (e) => {
+  historycontainer.innerHTML = "";
+});
